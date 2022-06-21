@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDY ABROAD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>            
+                    <li> <a href="contact.html">Contact</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+ <div class="text-box">
+    <h1>STUDY IN THE COUNTRY OF YOUR DREAMS</h1>
+    <P>Get walked through the hassle of appying and getting admitted <br>into a university in the country of your dreams</P>
+    <a href="contact.html" class="hero-btn">Contact us today!</a>
+ </div>       
+    </section>
+    <!-----Course----->
+<section class="course">
+        <h1>Services We Offer</h1>
+        <p>we are on ground to make your dreams come true</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Visa Processing</h3>
+                <p>we will facilitate your visa application with our friends across<br> different embassies and also make sure your documentation is correct and complete</p>
+            </div>
+            <div class="course-col">
+                <h3>Accomodation</h3>
+                <p>Moving to a new country can seem scary that is why we are on hand to help you<br> settle in quickly and sort out your accomodation even before arriving!</p>
+            </div>
+            <div class="course-col">
+                <h3>Admission Processing</h3>
+                <p>Once you have made the choice of your preferred school we assist you<br> through the admission process which would put you ahead of many other applicants</p>
+            </div>
+
+        </div>
+
+        
+    </section>
+    <!-----Benefits----->
+    <section class="Benefits">
+        <h1>Other Benefits</h1>
+        <p>We provide extra services in line with your study and career path</p>
+        <div class="row">
+            <div class="benefits-col">
+                <img src="sch.png">
+                <div class="layer">
+                    <h3>CAREER ADVICE</h3>
+                </div>
+            </div>
+                <div class="benefits-col">
+                    <img src="friend.png">
+                    <div class="layer">
+                        <h3>CONNECT WITH OTHERS<br>LIKE YOU</h3>
+                    </div>
+                </div>
+                    <div class="benefits-col">
+                        <img src="cafeteria.png">
+                        <div class="layer">
+                            <h3>CAFETERIA TICKET TO<br>REDUCE LIVING EXPENSES</h3>
+                        </div>
+                
+                
+            </div>
+        </div>
+
+    </section>
+    <!------Reviews------>
+    <section class="testimonials">
+        <h1> Reviews</h1>
+        <p> from our current crop abroad</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="2.png">
+                <div>
+                    <p>"They helped me get into the university of British Columbia, Canada<br> and were very very helpful in my first year"</p>
+                    <h3>Christine Njoku</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="yeah.png">
+                <div>
+                    <p>"I was adviced on my carreer choice based on high school results, my visa came in faster than normal <br>and i've connected with a few nice people from them and it helped me ease in.<br> I'm in Oslo,Norway"</p>
+                    <h3>Sinead Ngixolele</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="ak.png">
+                <div>
+                    <p>"I just got accepted into Massey University in Australia<br> and the cafeteria ticket is really coming in handy!"</p>
+                    <h3>Akwusuo Walacot</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----footer---->
+    <section class="footer">
+        <h4>Reach Out Today!</h4>
+        <p>You can reach out to us on our various social media platforms<br> A representative is always on hand to attend to you</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Coded by Victor</p>
+    </section>
+    <!-----JavaScript for toogle menu-----> 
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
